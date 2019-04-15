@@ -1,6 +1,6 @@
 <template>
   <div class="counter-warp">
-    <p>Vuex counter：{{ count }}</p>
+    <p>Vuex counter：{{ count+100 }}</p>
     <p>
       <button @click="increment">+</button>
       <button @click="decrement">-</button>

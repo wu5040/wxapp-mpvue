@@ -1,9 +1,16 @@
 {
   "pages": [
+    "pages/login/main",
     "pages/index/main",
     "pages/logs/main",
     "pages/counter/main"
   ],
+  "plugins": {
+    "tencentvideo": {
+      "version": "1.2.8",
+      "provider": "wxa75efa648b60994b"
+    }
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
