@@ -25,7 +25,7 @@ export default {
               url: 'https://api.weixin.qq.com/sns/jscode2session',
               data: {
                 appid: 'wx574909b2ce478921',
-                secret: 'ec7e19242efa8d4823851725b5caa888',
+                secret: '',
                 js_code: res.code,
                 grant_type: 'authorization_code'
               },
