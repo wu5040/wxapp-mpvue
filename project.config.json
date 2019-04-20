@@ -1,18 +1,25 @@
 {
-	"description": "项目配置文件。",
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
 	"setting": {
 		"urlCheck": false,
-		"es6": false,
+		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
 		"autoAudits": false,
 		"checkInvalidKey": true
 	},
-	"miniprogramRoot": "dist/wx/",
 	"compileType": "miniprogram",
+	"libVersion": "2.6.6",
 	"appid": "wx574909b2ce478921",
-	"projectname": "my-project",
+	"projectname": "wxapp-yixiyun",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {

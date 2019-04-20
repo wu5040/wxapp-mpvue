@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/videos/videos",
+    "pages/activity/activity",
+    "pages/shop/shop",
+    "pages/my/my"
+  ],
+  "window": {
+    "navigationStyle":"custom",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents":{
+    "cu-custom":"/colorui/components/cu-custom"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#8799a3",
+    "selectedColor": "#1cbbb4",
+    "list": [
+      {
+        "pagePath": "pages/videos/videos",
+        "text": "视频",
+        "iconPath":"static/icons/videos-gray.png",
+        "selectedIconPath":"static/icons/videos.png"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "text": "活动",
+        "iconPath": "static/icons/activity-gray.png",
+        "selectedIconPath": "static/icons/activity.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "商店",
+        "iconPath": "static/icons/shop-gray.png",
+        "selectedIconPath": "static/icons/shop.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/icons/my-gray.png",
+        "selectedIconPath": "static/icons/my.png"
+      }
+    ]
+  }
+}

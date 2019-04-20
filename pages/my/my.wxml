@@ -1,0 +1,77 @@
+<scroll-view scroll-y class="scrollPage">
+  <view class="UCenter-bg">
+    <!-- <image src="{{userInfo.avatarUrl}}" class="png" mode="widthFix"></image> -->
+    <view class="cu-avatar xl round" style="background-image:url({{ userInfo.avatarUrl }});"></view>
+      <view class="text-xxl padding">{{ userInfo.nickName }}
+      </view>
+    <image src="https://image.weilanwl.com/gif/wave.gif" mode="scaleToFill" class="gif-wave"></image>
+  </view>
+  <view class="padding flex text-center text-grey bg-white shadow-warp">
+    <view class="flex flex-sub flex-direction solid-right">
+    </view>
+    <view class="flex flex-sub flex-direction solid-right">
+    </view>
+    <view class="flex flex-sub flex-direction">
+    </view>
+  </view>
+
+
+  <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
+    <view class="cu-item arrow">
+      <view class="content" bindtap="CopyLink" data-link="https://github.com/weilanwl/ColorUI">
+        <text class="icon-favorfill text-cyan xxl"></text>    
+        <text class="text-grey text-xxl">我的收藏</text>
+      </view>
+    </view>
+    <view class="cu-item arrow">
+      <navigator class="content" url="/pages/about/about/about" hover-class="none">
+        <text class="icon-activityfill text-cyan text-xxl"></text>
+        <text class="text-grey text-xxl">我的活动</text>
+      </navigator>
+    </view>
+    <view class="cu-item arrow">
+      <navigator class="content" url="/pages/about/log/log" hover-class="none">
+        <text class="icon-communityfill text-cyan text-xxl"></text>
+        <text class="text-grey text-xxl">我的通知</text>
+      </navigator>
+    </view>
+    <view class="cu-item arrow">
+      <view class="content" bindtap="showQrcode">
+        <text class="icon-appreciatefill text-red text-xxl"></text>
+        <text class="text-grey text-xxl">关于我们</text>
+      </view>
+    </view>
+     <view class="cu-item arrow">
+      <view class="content" bindtap="showQrcode">
+        <text class="icon-appreciatefill text-red text-xxl"></text>
+        <text class="text-grey text-xxl">关于我们</text>
+      </view>
+    </view>
+     <view class="cu-item arrow">
+      <view class="content" bindtap="showQrcode">
+        <text class="icon-appreciatefill text-red text-xxl"></text>
+        <text class="text-grey text-xxl">关于我们</text>
+      </view>
+    </view>
+     <view class="cu-item arrow">
+      <view class="content" bindtap="showQrcode">
+        <text class="icon-appreciatefill text-red text-xxl"></text>
+        <text class="text-grey text-xxl">关于我们</text>
+      </view>
+    </view>
+     <view class="cu-item arrow">
+      <view class="content" bindtap="showQrcode">
+        <text class="icon-appreciatefill text-red text-xxl"></text>
+        <text class="text-grey text-xxl">关于我们</text>
+      </view>
+    </view>
+     <view class="cu-item arrow">
+      <view class="content" bindtap="showQrcode">
+        <text class="icon-appreciatefill text-red text-xxl"></text>
+        <text class="text-grey text-xxl">关于我们</text>
+      </view>
+    </view>
+
+  </view>
+  <view class="cu-tabbar-height"></view>
+</scroll-view>
