@@ -36,7 +36,8 @@ App({
               js_code: res.code,
               grant_type: 'authorization_code'
             },
-            success(res) {  
+            success(res) {
+              // 本地保存openid  
               wx.setStorage({
                 key: 'useropenid',
                 data: res.data.openid

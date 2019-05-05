@@ -4,19 +4,27 @@
     "pages/videos/videos",
     "pages/activity/activity",
     "pages/shop/shop",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/my/updateInfo/updateInfo"
   ],
   "window": {
-    "navigationStyle":"custom",
+    "backgroundColor": "#fff",
+    "navigationStyle": "custom",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
-  "usingComponents":{
-    "cu-custom":"/colorui/components/cu-custom"
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
   },
   "sitemapLocation": "sitemap.json",
+  "plugins": {
+    "tencentvideo": {
+      "version": "1.2.4",
+      "provider": "wxa75efa648b60994b"
+    }
+  },
   "tabBar": {
     "color": "#8799a3",
     "selectedColor": "#1cbbb4",
@@ -24,26 +32,26 @@
       {
         "pagePath": "pages/videos/videos",
         "text": "视频",
-        "iconPath":"static/icons/videos-gray.png",
-        "selectedIconPath":"static/icons/videos.png"
+        "iconPath": "static/icons/video-gray.png",
+        "selectedIconPath": "static/icons/video.png"
       },
       {
         "pagePath": "pages/activity/activity",
         "text": "活动",
-        "iconPath": "static/icons/activity-gray.png",
-        "selectedIconPath": "static/icons/activity.png"
+        "iconPath": "static/icons/explore-gray.png",
+        "selectedIconPath": "static/icons/explore.png"
       },
       {
         "pagePath": "pages/shop/shop",
         "text": "商店",
-        "iconPath": "static/icons/shop-gray.png",
-        "selectedIconPath": "static/icons/shop.png"
+        "iconPath": "static/icons/bag-gray.png",
+        "selectedIconPath": "static/icons/bag.png"
       },
       {
         "pagePath": "pages/my/my",
         "text": "我的",
-        "iconPath": "static/icons/my-gray.png",
-        "selectedIconPath": "static/icons/my.png"
+        "iconPath": "static/icons/person-gray.png",
+        "selectedIconPath": "static/icons/person.png"
       }
     ]
   }

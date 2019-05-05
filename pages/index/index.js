@@ -54,7 +54,7 @@ Page({
     })
 
     wx.request({
-      url: 'http://127.0.0.1:5000/login',
+      url: 'http://wowsg.top:5000/login',
       method: 'POST',
       data: {
         openid: wx.getStorageSync('useropenid'),

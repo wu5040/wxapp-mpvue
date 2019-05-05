@@ -1,1 +1,8 @@
 /* pages/videos/videos.wxss */
+page{
+  padding-top: 100rpx;
+  background-color: white;
+}
+item.none{
+  display: none;
+}
